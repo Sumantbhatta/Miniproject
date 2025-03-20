@@ -6,6 +6,7 @@ import './App.css'
 import AnimatedCard from "./AnimatedCard";
 import LandingPage from "./LandingPage";
 import GetInternship from './GetInternship'
+import AddInternship from './AddInternships'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

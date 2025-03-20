@@ -5,3 +5,103 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.scale-button {
+  /* padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer; */
+  transition: all 10s ease-in-out;
+  transform-origin: center;
+}
+
+.scale-button.scale-up {
+  width: 100vw;
+  height: 100vh;
+  /* transform: scale(100); Adjust the scale factor to cover the screen */
+}
+
+.custom-select {
+  border: 1px solid #DCBE82;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  background: white;
+  color: #566730;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.custom-button:hover {
+  filter: brightness(1.2);
+}
+
+.internship-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  border-left: 5px solid #566730;
+}
+
+.skill-badge {
+  background: #DCBE82;
+  color: #566730;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.apply-button {
+  margin-top: 10px;
+  background: #566730;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background: #3e5025;
+}
+
+.job-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #566730;
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-badge {
+  background: #DCBE82;
+  color: #566730;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.apply-button {
+  margin-top: 10px;
+  background: #566730;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.apply-button:hover {
+  background: #3e5025;
+}
